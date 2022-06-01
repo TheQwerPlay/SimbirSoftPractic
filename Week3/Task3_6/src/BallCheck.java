@@ -11,7 +11,7 @@ public class BallCheck
 
     public void outputReport()
     {
-        for (int i = 1; i < arrayDiameter.length; i++)
+        for (int i = 0; i < arrayDiameter.length; i++)
         {
             System.out.print(i + ": Шар имеет вес " + arrayWeight[i] + " и его диаметр составляет " + arrayDiameter[i]);
             if ((arrayDiameter[i] >= 22 && arrayDiameter[i] <= 26) && (arrayWeight[i] >= 71 && arrayWeight[i] <= 77))
